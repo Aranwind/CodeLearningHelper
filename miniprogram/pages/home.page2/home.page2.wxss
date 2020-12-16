@@ -1,0 +1,36 @@
+.image{
+  margin-left: 0rpx;
+  width:90rpx;
+  height:90rpx;
+}
+.section{
+  margin-left: 10rpx;
+  margin-bottom: 1rpx;
+  font-weight: 900;
+  font-size: 40rpx;
+}
+.itemroot{
+  border-bottom:1px solid gainsboro;
+  margin:15rpx;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  border-bottom: 1px solid #ccc;
+}
+.top text{
+  width: 50%;
+  line-height: 100rpx;
+  text-align: center;
+}
+.top .active{
+  border-bottom: 2px solid red;
+}
+input{
+  border-bottom: 1px solid #ccc;
+  line-height: 100rpx;
+  height: 100rpx;
+  padding-left: 40rpx;
+  margin-bottom: 40rpx;
+}

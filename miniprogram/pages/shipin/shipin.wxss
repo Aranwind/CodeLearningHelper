@@ -1,0 +1,53 @@
+/* pages/learning/learning.wxss */
+
+.tabs_title{
+  display:flex;
+  padding: 10rpx;
+}
+.title_item{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.active{
+  color:#FF9224;
+  border-bottom: 5rpx solid currentColor;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  color:rgb(13, 15, 1);
+  text-align: center;
+  margin: 10px;
+}
+.shupai{
+  display:flex;
+}
+.content{
+  display:flex;
+  flex-direction:column;
+  width:425rpx;
+  margin:11rpx;
+}
+.image{
+  width:325rpx;
+  height:225rpx;
+  color:rgb(14, 203, 250);
+  margin:11rpx;
+}
+
+.sc{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 0.78;
+  margin-left: 650rpx;
+}
+.sc image{
+  
+  height: 55rpx;
+  width:55rpx;
+  margin-left: 10rpx;
+}

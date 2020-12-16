@@ -1,0 +1,38 @@
+<!--pages/page2/page2.wxml-->
+<view>
+<image class="image" src="../../images/kaixinguo.jpg"></image>
+<text class="section">这里有你的“精神上的小零食”</text>
+</view>
+
+<view class='top'>
+  <text class="{{login?'active':''}}" catchtap='food'>美食</text>
+  <text class="{{login?'':'active'}}" catchtap='scenery'>风景</text>
+</view>
+ 
+<view class='log' wx:if="{{login}}">
+  <form>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/3.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/2.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/1.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/4.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/5.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/6.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/7.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/8.jpg"></image>
+  </form>
+ 
+</view>
+<view class='reg'wx:else>
+  <form>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/a.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/b.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/c.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/d.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/e.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/f.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/g.jpg"></image>
+<image src="cloud://origin-2gq9z9b2ba4958de.6f72-origin-2gq9z9b2ba4958de-1304444068/page2.images/h.jpg"></image>
+  </form>
+</view>
+
+

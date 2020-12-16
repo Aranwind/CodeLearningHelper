@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="first">
+Query
+  </view>
+  <view class="search">
+    <view class="search_input">
+      <input class="search_input2" placeholder='  关键词搜索' value='{{searchVal}}' bindconfirm="search" bindinput="input"></input>
+      <icon class="icon-small" type="cancel" color="black" wx:if="{{ searchVal != '' }}" catchtap="clear" size="23"></icon>
+    </view>
+    <image class="search_image" src="../../images/search.png" catchtap="search"></image>
+  </view>
+  <scroll-view class="search_scroll" scroll-y="true">
+      <view class="search_kuangjia"> 
+        <view class="search_items" wx:for="{{goodList.length}}" wx:key="index">
+          <view class="wenzi">
+            <view>{{goodList[index].contain}}</view>
+            <text class="contnet">{{goodList[index].mean}}</text>
+          </view>
+        </view>
+      </view>
+  </scroll-view>
+</view>

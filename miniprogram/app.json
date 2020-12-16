@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/fanyi/fanyi",
+    "pages/shipin/shipin",
+    "pages/home/home",
+    "pages/home.page1/home.page1",
+    "pages/home.gerenxinxi/home.gerenxinxi",
+    "pages/home.page2/home.page2"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7bbea5",
+    "navigationBarTitleText": "Code Translator",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#618288",
+    "list":[{
+      "pagePath":"pages/fanyi/fanyi",
+      "iconPath": "images/query.jpg",
+      "selectedIconPath": "images/query_active.jpg",
+      "text": "翻译"},{
+        "pagePath":"pages/shipin/shipin",
+        "iconPath": "images/learning.jpg",
+        "selectedIconPath": "images/learning_active.jpg",
+        "text": "学习资料"},{
+        "pagePath":"pages/home/home",
+        "iconPath": "images/homepage.jpg",
+         "selectedIconPath": "images/homepage_active.jpg",
+         "text": "个人主页"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

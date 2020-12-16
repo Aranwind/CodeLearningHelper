@@ -1,0 +1,123 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "userConfirmedBundleSwitch": false,
+    "minifyWXSS": true
+  },
+  "appid": "wx17563706fc77b943",
+  "projectname": "miniprogram-19",
+  "libVersion": "2.8.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/page3/page3",
+          "pathName": "pages/page3/page3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/fanyi/fanyi",
+          "pathName": "pages/fanyi/fanyi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/gerenxinxi/gerenxinxi",
+          "pathName": "pages/gerenxinxi/gerenxinxi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home.page2/home.page2",
+          "pathName": "pages/home.page2/home.page2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home.page1/home.page1",
+          "pathName": "pages/home.page1/home.page1",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

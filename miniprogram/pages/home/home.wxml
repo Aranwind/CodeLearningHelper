@@ -1,0 +1,23 @@
+<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <view class="uploader">
+  <view class="uploader-text" bindtap="togerenxinxi">
+      <text >关于我们</text>
+      <image src="../../images/arrow-right.jpg" class="arrow"></image>
+    </view></view>
+  <view class="hei"></view>
+  <image class="userinfo-avatar" src="../../images/home.1.jpg" mode="cover" bindtap="bindtopage1"></image>
+  <text class="section" bindtap="bindtopage1" >  累了点这儿</text>
+  <view class="hei"></view>
+    <image class="userinfo-avatar" src="../../images/home.2.jpg" mode="cover" bindtap="bindtopage2"></image>
+  <text class="section" bindtap="bindtopage2">  饿了点这儿</text>
+  </view>
+
+ 
+  
+  
+ 

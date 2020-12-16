@@ -1,0 +1,80 @@
+<!--pages/learning/learning.wxml-->
+<view class="tabs">
+<view class="tabs_title">
+  <view
+  wx:for="{{tabs}}"
+  wx:key="id"
+  class="title_item {{item.isActive?'active':''}}"
+  bindtap="handleItemTab"
+  data-index="{{index}}"
+  >
+  {{item.name}}
+</view>
+</view>
+
+<!--论坛教程页-->
+<block wx:if="{{tabs[0].isActive}}">
+  <view class='title'>冲冲冲！</view>
+  <progress percent="0" ></progress>
+  <view>（以下链接轻触可复制）</view>
+  <progress percent="0" ></progress>
+  <view>初级：菜鸟教程</view>
+  <text bindtap="fun" selectable="true">https://www.runoob.com/cplusplus/cpp-tutorial.htmlp</text>
+  <view>（强烈推荐！）</view>
+  <progress percent="0" ></progress>
+  <view>初级：W3Cschool</view>
+  <text bindtap="fun" selectable="true">https://www.w3cschool.cn/cpp/cpp-interfaces.html</text>
+  <view>（类似菜鸟教程）</view>
+  <progress percent="0" ></progress>
+  <view>初级：易百教程</view>
+  <text bindtap="fun" selectable="true">https://www.yiibai.com/cplusplus/</text>
+  <view>（类似菜鸟教程）</view>
+  <progress percent="0" ></progress>
+  <view>进阶：CSDN</view>
+  <text bindtap="fun" selectable="true">https://bbs.csdn.net/forums/Cpp</text>
+  <view>（大佬们的干货分享和对常见问题的解答）</view>
+  <progress percent="0" ></progress>
+  <view>进阶：GitHub</view>
+  <text bindtap="fun" selectable="true">https://github.com/account/unverified-email</text>
+  <view>（海量开源代码！）</view>
+  <progress percent="0" ></progress>
+</block>
+
+<!--好课推荐页-->
+<block wx:if="{{tabs[1].isActive}}">
+<view class='title'>祝你拥有愉快的学习之旅！</view>
+<view class='shupai' wx:for="{{haokeList}}">
+  <view class='image'>
+    推荐{{index+1}}：{{item.name}}
+    <image class='image' src='{{item.imagePath}}'></image>
+  </view>
+  <view class='content'>
+    <text>课程特点：{{item.comment}}</text>
+    <text>课程平台：{{item.platform}}</text>
+    <text>上课方法：{{item.way}}</text>
+    <view>
+         
+    </view>
+  </view>
+</view>
+
+</block>
+
+<!--编程练习页-->
+<block wx:if="{{tabs[2].isActive}}">
+  <view class='title'>多多练习，你会有收获的！</view>
+  <image src="../../images/2.jpg"></image>
+  <text>（轻触问题可查看参考答案）</text>
+  <progress percent="0" ></progress>
+<view wx:for="{{questionList}}">
+  <view bindtap='clickMe'>
+    {{index+1}}. {{item.name}}
+    <text hidden="{{hiddenName}}">{{item.answer}}</text>
+  </view>
+<progress percent="0" ></progress>
+</view>
+
+
+</block>
+
+</view>
